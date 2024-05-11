@@ -1,0 +1,93 @@
+body{
+    background-color:rgb(243, 229, 216) ;
+    /* color: rgb(117  , 110, 104) */
+    color: hsl(30, 10%, 34%);
+    font-family: "outfit";
+
+
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 4000;
+    font-style: normal;
+    font-size: 36px;
+  }
+  
+h1{
+    color: hsl(24, 5%, 18%);
+}
+
+.main{
+    display: flex;
+
+    width: 100%;
+    justify-content: center;
+    align-content:center;
+    /* text-align: center; */
+    /* background-color: white; */
+    border-radius: 20px;
+    margin-top: 20px;
+
+}
+.mediumbox{
+    
+    width: 40%;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    /* display: flex; */
+    align-content: center;
+    justify-content: center;
+    padding: 40px;
+    
+
+}
+
+img{
+    width: 100%;
+    border-radius: 20px;
+    /* margin-top: 30px; */
+    
+
+}
+
+.Preparation{
+    
+    /* background-color: rgb(255, 247, 252); */
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    border-radius: 10px;
+
+  
+}
+.Preparation h2{
+    color: rgb(104, 50, 73);
+}
+h2,h3,.values{
+    color: hsl(14, 45%, 36%);
+}
+.Preparation li{
+    color: rgb(104, 94, 92);
+
+    
+}
+li::marker{
+    color:rgb(104, 35, 66) ;
+    font-weight: bold;
+}
+.nutritional {
+justify-content: space-around;
+}
+
+.nutritional p{
+    width: 200px;
+    display: inline-block;
+    line-height: 1px;
+    margin-right: 70px;
+    margin-left: 25px;
+
+    
+   
+}
